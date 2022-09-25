@@ -1,10 +1,10 @@
-import React from "react";
+import "./Home.css";
 import Featured from "../../components/featured/Featured";
 import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import PropertyList from "../../components/propertyList/PropertyList";
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
-import "./Home.css";
+import MailList from "../../components/mailList/MailList";
 
 const Home = (props) => {
   return (
@@ -17,6 +17,7 @@ const Home = (props) => {
         <PropertyList />
         <h1 className="homeTitle">Homes guests love</h1>
         <FeaturedProperties />
+        <MailList />
       </div>
     </>
   );
